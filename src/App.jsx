@@ -8,9 +8,13 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonial from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import { appendScript } from './components/particle/Particle'
+// import './components/particle/Particle'
 
 const app = () => {
+  
   return (
+    
     <>
     <Header />
     <Nav />
